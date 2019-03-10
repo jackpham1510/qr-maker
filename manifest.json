@@ -1,0 +1,20 @@
+{
+  "name": "QR Maker",
+  "version": "1.0",
+  "author": "Pham Dung",
+  "description": "QR Maker Extension",
+  "icons": {
+    "16": "qrmaker.png",
+    "32": "qrmaker.png",
+    "128": "qrmaker.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "QR Marker",
+    "default_icon": "qrmaker.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "manifest_version": 2
+}

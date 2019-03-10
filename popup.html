@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      width: 286px;
+      min-height: 200px;
+      font-family: sans-serif;
+    }
+    textarea {
+      height: 128px;
+      width: 256px;
+      color: #585858;
+    }
+    textarea {
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 4px 0 #ccc;
+    }
+    textarea:focus {
+      outline: 0;
+    }
+    .mb-10 {
+      margin-bottom: 10px;
+    }
+    .mt-10 {
+      margin-top: 10px;
+    }
+    .header{
+      border-bottom: 1px solid #ccc;
+    }
+    .header h2 {
+      margin: 0;
+    }
+    .footer {
+      border-top: 1px solid #ccc;
+      text-align: center;
+    }
+    .header, .footer {
+      padding: 15px;
+      color: #585858;
+    }
+    .header h2 {
+      display: flex;
+      align-items: center;
+    }
+    .body {
+      background: #f7f7f7;
+      padding: 20px 15px;
+    }
+    .text-red {
+      color: red;
+    }
+    #qrcode{
+      display: none;
+      width: 256px;
+      height: 256px;
+    }
+    .qrcontainer {
+      display: flex;
+      justify-content: center;
+    }
+    .float-right {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2 class="mb-10">
+      <img src="qrmaker.png" alt="QR Maker" width="20">
+      <span style="margin-left: 5px">QR Maker</span>
+    </h2>
+  </div>
+  <div class="body">
+    <textarea id="input" class="mb-10"></textarea>
+    <div id="qrcode"></div>
+  </div>
+  <div class="footer">
+    <h4>Make with <span class="text-red">&hearts;</span> by <a href="https://fb.com/cpt.jack1998" target="_blank">Pham Dung</a></h4>
+  </div>
+  <script src="/qrcode.min.js"></script>
+  <script src="/popup.js"></script>
+</body>
+</html>
