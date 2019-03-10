@@ -1,6 +1,8 @@
 # QR Maker
 An extension that helps you make QR codes quickly in Chrome browser
 
+![QR Maker](readme_img/qrmaker.png)
+
 # Install
 
 1. Clone this project
