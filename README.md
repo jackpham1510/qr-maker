@@ -5,8 +5,9 @@ An extension that helps you make QR codes quickly in Chrome browser
 
 1. Clone this project
 2. Turn on extensions developer mode
-  * Access [chrome://extensions](chrome://extensions) 
-  * Turn on developer mode in the upper right
+    * Access [chrome://extensions](chrome://extensions) 
+    * Turn on developer mode in
+    the upper right
 3. Load unpacked, then browse to this project folder
 
 # Feautures
